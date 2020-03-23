@@ -1,7 +1,7 @@
 # INSERTION-SORT
 import numpy as np
 def insertion_sort(limit, x):
-     = np.random.randint(limit , size = x)
+    a = np.random.randint(limit , size = x)
 
     for i in range(1, len(a)):
         key = a[i]
